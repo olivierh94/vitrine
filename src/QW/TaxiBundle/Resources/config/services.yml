@@ -1,0 +1,4 @@
+services:
+#    qw_taxi.example:
+#        class: QW\TaxiBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

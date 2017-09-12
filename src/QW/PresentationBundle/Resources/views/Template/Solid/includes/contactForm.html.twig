@@ -1,0 +1,52 @@
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-8">
+            <h4>Demande de contact</h4>
+            <div class="hline"></div>
+
+            <p>Merci de bien vouloir préciser vos coordonnées et votre demande.</p>
+            {{ form_start(formContact) }}
+                <div class="form-group">
+                    {{ form_label(formContact.name) }}
+                    {{ form_widget(formContact.name) }}
+                    {{ form_errors(formContact.name) }}
+                </div>
+                <div class="form-group">
+                    {{ form_label(formContact.email) }}
+                    {{ form_widget(formContact.email) }}
+                    {{ form_errors(formContact.email) }}
+                </div>
+                <div class="form-group">
+                    {{ form_label(formContact.subject) }}
+                    {{ form_widget(formContact.subject) }}
+                    {{ form_errors(formContact.subject) }}
+                </div>
+                <div class="form-group">
+                    {{ form_label(formContact.body) }}
+                    {{ form_widget(formContact.body) }}
+                    {{ form_errors(formContact.body) }}
+                </div>
+                <button type="submit" class="btn btn-theme">Envoyer</button>
+            {{ form_end(formContact) }}
+            {% if returnMessage != '' %}
+                <span style="font-weight: bold; color:greenyellow;">Message envoyé</span>
+            {% endif %}
+            <p>Conformément à la loi Informatique et Libertés du 6 janvier 1978, vous disposez d'un droit d'accès, de rectification et de suppression des données qui vous concernent en nous écrivant à l'adresse postale et/ou mail indiquée ci dessus. Seule notre société est destinataire des informations que vous lui communiquez.</p>
+        </div><! --/col-lg-8 -->
+
+        <div class="col-lg-4">
+            <h4>Nous Contacter</h4>
+            <div class="hline"></div>
+            <p>
+                taxidir<br/>
+                93130 Noisy le Sec<br/>
+            </p>
+            <p>
+                Email: taxidir@gmail.com <br/>
+                Tel: 07 69 31 87 78
+            </p>
+            <p>Taxi équipé de WI-FI et chargeurs smartphone<br />
+                Visites touristiques dans Paris en français et en anglais</p>
+        </div>
+    </div><! --/row -->
+</div><! --/container -->

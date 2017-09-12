@@ -1,0 +1,24 @@
+qw_presentation_homepage:
+    path:     /
+    defaults: { _controller: QWPresentationBundle:Default:index }
+qw_presentation_about:
+    path:     /prestations
+    defaults: { _controller: QWPresentationBundle:Default:about }
+qw_presentation_contact:
+    path:     /contacter-taxi
+    defaults: { _controller: QWPresentationBundle:Default:contact }
+qw_presentation_zone:
+    path:     /zone-intervention
+    defaults: { _controller: QWPresentationBundle:Default:zone }
+qw_presentation_portfolio:
+    path:     /portfolio
+    defaults: { _controller: QWPresentationBundle:Default:portfolio }
+qw_presentation_blog:
+    path:     /blog
+    defaults: { _controller: QWPresentationBundle:Default:blog }
+qw_presentation_post:
+    path:     /post
+    defaults: { _controller: QWPresentationBundle:Default:post }
+qw_presentation_project:
+    path:     /project
+    defaults: { _controller: QWPresentationBundle:Default:project }

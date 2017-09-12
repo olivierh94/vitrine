@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block title %}Base{% endblock %}
+    {% include "QWPresentationBundle:Template:Solid/includes/header.html.twig" %}
+</head>
+<body>
+<!-- Fixed navbar -->
+{% include "QWPresentationBundle:Template:Solid/includes/navbarFixed.html.twig" %}
+
+{% block body %}{% endblock %}
+<!-- *****************************************************************************************************************
+ FOOTER
+ ***************************************************************************************************************** -->
+{% include "QWPresentationBundle:Template:Solid/includes/footer.html.twig" %}
+
+{% include "QWPresentationBundle:Template:Solid/includes/footerScript.html.twig" %}
+
+{% block javascripts %}{% endblock %}
+</body>
+</html>

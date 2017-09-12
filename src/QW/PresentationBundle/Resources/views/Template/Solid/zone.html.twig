@@ -1,0 +1,17 @@
+{% extends "QWPresentationBundle::base.html.twig" %}
+
+{% block title %}Zone d'intervention{% endblock %}
+
+{% block body %}
+	<!-- *****************************************************************************************************************
+	 BLUE WRAP
+	 ***************************************************************************************************************** -->
+    {% include "QWPresentationBundle:Template:Solid/includes/blueWrap.html.twig" with {'title': 'Zone d\'intervention'} %}
+
+	<!-- *****************************************************************************************************************
+	 CONTACT WRAP
+	 ***************************************************************************************************************** -->
+    {% include "QWPresentationBundle:Template:Solid/includes/zoneIntervention.html.twig" %}
+
+
+{% endblock %}

@@ -1,0 +1,3 @@
+qw_presentation:
+    resource: "@QWPresentationBundle/Resources/config/routing.yml"
+    prefix:   /

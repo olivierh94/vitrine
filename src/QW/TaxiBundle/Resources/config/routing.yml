@@ -1,0 +1,15 @@
+qw_taxi_homepage:
+    path:     /
+    defaults: { _controller: QWTaxiBundle:Default:index }
+qw_taxi_about:
+    path:     /about
+    defaults: { _controller: QWTaxiBundle:Default:about }
+qw_taxi_contact:
+    path:     /contact
+    defaults: { _controller: QWTaxiBundle:Default:contact }
+qw_taxi_cars:
+    path:     /cars
+    defaults: { _controller: QWTaxiBundle:Default:cars }
+qw_taxi_services:
+    path:     /services
+    defaults: { _controller: QWTaxiBundle:Default:services }
